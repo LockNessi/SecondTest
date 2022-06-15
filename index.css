@@ -1,0 +1,13 @@
+h1{ font-size: 100px;
+margin-left: 45%;
+margin-top: 8%;}
+a{color: rgb(228, 228, 13);}
+span{color: blue;}
+
+input{border-radius: 20px;
+    margin-bottom: 200px;
+    margin-left: 120px;
+    width: 300px;
+    height: 2pc;}
+
+#placeholder{margin-left: 200px;}    

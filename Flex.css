@@ -1,0 +1,25 @@
+.flexdiv{
+    display: flex;
+    background-color: rgb(19, 12, 12);
+    height: 400px;
+
+}
+p{
+    width: 15%;
+    height: 15%;
+}
+.Firstclass{
+    background-color: aliceblue;
+}
+.Secondclass{
+    background-color: aqua;
+}
+.Thirdclass{
+    background-color: aquamarine;
+}
+.Fourthclass{
+    background-color: burlywood;
+}
+.Fifthclass{
+    background-color: bisque;
+}

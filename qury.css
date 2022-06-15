@@ -1,0 +1,56 @@
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+.sec_1{
+    background-color: aqua;
+    width: 200px;
+} 
+body{
+    background-color: black;}
+form{background-color: antiquewhite;
+     height: 200px;}    
+}
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ 
+.sec_1{
+    background-color: blueviolet;
+}
+body{
+    background-color: brown;}
+}
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+.sec_1{
+    background-color: blueviolet;
+}
+body{
+    background-color: aquamarine;}
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.sec_1{background-color: burlywood;}
+body{
+    background-color: chartreuse;}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+.sec_1{background-color: chocolate;}
+body{background-color: cornflowerblue;}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+.sec_1{background-color: crimson;}
+bady{background-color: cyan;}
+}
+
+/* all rules outside of @media queries apply to devices 1201px and above */
+@media (max-width: 2560px) {/* rules here apply to devices from 0px to 425px (inclusive) */
+    body{background-color:  magenta;}
+    }
+@media (max-width: 1200px) {/* rules here apply to devices from 993px to 1200px (inclusive) */
+body{background-color: green;}
+}
+@media (max-width: 992px) {	/* rules here apply to devices from 769px to 992px (inclusive) */
+body{background-color: darkblue;}
+}
+@media (max-width: 768px) {/* rules here apply to devices from 0px or 425px to 768px (inclusive) */
+body{background-color: deeppink;}
+}
+
+/* You may also apply this: */
+@media (max-width: 425px) {/* rules here apply to devices from 0px to 425px (inclusive) */
+body{background-color: dodgerblue;}
+}
